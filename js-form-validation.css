@@ -1,0 +1,75 @@
+/* apply a background color to the body */
+body {
+  background-color: #cded93;
+}
+
+/* set the font family and size for the entire document */
+html, body {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 16px;
+}
+
+/* center the form */
+form {
+  margin: 0 auto;
+  width: 50%;
+}
+
+/* remove bullets from unordered list */
+ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+/* style the h1 element */
+h1 {
+  color: #c44569;
+  font-size: 2.5rem;
+  text-align: center;
+  margin-top: 1rem;
+}
+
+/* style the label element */
+label {
+  display: block;
+  font-weight: bold;
+  color: #0f4c81;
+  margin-top: 1rem;
+}
+
+/* style the input elements */
+input[type="text"], input[type="password"], select {
+  display: block;
+  margin-top: 0.5rem;
+  padding: 0.5rem;
+  font-size: 1rem;
+  border: 2px solid #0f4c81;
+  border-radius: 0.5rem;
+}
+
+/* style the select element */
+select {
+  width: 100%;
+}
+
+/* style the submit button */
+input[type="submit"] {
+  display: block;
+  margin-top: 1rem;
+  padding: 0.5rem;
+  font-size: 1rem;
+  background-color: #0f4c81;
+  color: #fff;
+  border: none;
+  border-radius: 0.5rem;
+  cursor: pointer;
+}
+
+/* style the error messages */
+span[id$="_err"] {
+  display: block;
+  color: #c44569;
+  font-size: 0.9rem;
+  margin-top: 0.25rem;
+}
